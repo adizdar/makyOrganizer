@@ -6,10 +6,7 @@ platform :ios, '8.0'
 
 target :unit_tests, :exclusive => true do
   link_with 'OrganizerTest'
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'OCMock'
-  pod 'OHHTTPStubs'
+  pod 'Realm'
 end
 
 
